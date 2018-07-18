@@ -1,0 +1,681 @@
+/*import fonts*/
+@font-face{
+	font-family: BebasNeue;
+	src: url(../Fuentes/BebasNeue.otf) format('truetype');
+}
+@font-face{
+	font-family: PTN77F;
+	src: url(../Fuentes/PTN77F.ttf) format('truetype');
+}
+/*base to style*/
+section .background{
+	width: 100%;
+/*style navbar*/	
+}
+.logo{
+	width: 87%;
+
+}
+.navbar{
+	background-color: #46200D;
+	color: #fff;
+	width: 100%;
+}
+.navbar .navbar-brand{
+	position: absolute;
+	top: -5px;
+	left: 47px;
+}
+.navbar-nav .borde:{
+	border-right: 1px solid #fff;
+}
+.nav-link {
+    font-size: 20px;
+    margin: 10px;
+}
+/*style header*/
+.contact{
+	width: 51%;
+    position: absolute;
+    top: 340px;
+    left: 481px;
+}
+img.contact1{
+	width: 50%;
+	
+}
+img.contact2{
+	width: 50%;
+	margin-left: -6px;
+}
+.form{
+	position: absolute;
+	bottom: 351px;
+    left: 527px;
+    line-height: 1 !important;
+    text-align: center;
+}
+.small{
+	color: #fff;
+}
+/*style body*/
+.mg-b{
+	margin-bottom: 12px;
+}
+.btn-enviar {
+    color: #fff;
+    background-color: #46200D;
+    border-color: #46200D;
+    width: 30%;
+}
+.title{
+	margin: auto;
+}
+/*style footer*/
+footer{
+	background-image: url("../Recortes/Recortes/Remanso-36.png");
+}
+h1{
+	font-family: BebasNeue !important;
+	color: #46200D !important;
+}
+h3,p{
+	font-family: PTN77F !important;
+	color: #46200D !important;
+}
+/*init resposive media querys*/
+@media (max-width:2560px) and (min-width: 1440px){
+	/*style header*/
+	.contact {
+	    width: 50%;
+	    position: absolute;
+	    top: 468px;
+    	left: 648px;
+	}
+	.form {
+	    bottom: 409px;
+    	left: 685px;
+	    line-height: 2 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 2 !important;
+	}
+	/*style body*/
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.title2{
+		display: none;
+	}
+	.title{
+		width: 100%;
+	}
+	.navbar-nav{
+		    margin-left: 33px;
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+}
+@media (max-width:1440px) and (min-width: 1366px){
+	/*style header*/
+	.contact {
+	    width: 57%;
+	    position: absolute;
+	    top: 272px;
+	    left: 314px;
+	}
+	.form {
+	    bottom: 290px;
+    	left: 447px;
+	    line-height: 1 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 1 !important;
+	}
+	/*style body*/
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.title2{
+		display: none;
+	}
+	.title{
+		width: 100%;
+	}
+	.navbar-nav{
+		    margin-left: 33px;
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+}
+@media (max-width:1366px) and (min-width: 1281px){
+	/*style header*/
+	.contact {
+	    width: 60%;
+	    position: absolute;
+	    top: 272px;
+	    left: 306px;
+	}
+	.form {
+	    bottom: 295px;
+	    left: 440px;
+	    line-height: 1 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 1 !important;
+	}
+	/*style body*/
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.title2{
+		display: none;
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+}
+@media (max-width:1280px) and (min-width: 1025px){
+	/*style header*/
+	.contact {
+	    width: 60%;
+	    position: absolute;
+	    top: 253px;
+    	left: 282px;
+	}
+	.form {
+        bottom: 276px;
+	    left: 412px;
+	    line-height: 1 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 1 !important;
+	}
+	/*style body*/
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.form-group {
+	    margin-bottom: 5px !important;
+	}
+	.navbar-nav{
+		    margin-left: 80px;
+	}
+	.title2{
+		display: none;
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+}
+@media (max-width:1024px) and (min-width: 993px){
+	/*style navbar*/
+	.logo {
+	    width: 63%;
+	}
+	.navbar{
+		padding: 0 0 !important;
+	}
+	.nav-link{
+		font-size: 18px;
+	}
+	/*style header*/
+	.contact {
+	   width: 60%;
+	    position: absolute;
+	    top: 203px;
+	    left: 220px;
+	}
+	.form {
+       bottom: 219px;
+	    left: 332px;
+	    line-height: 1 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 1 !important;
+		padding: 2px 10px !important;
+	}
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.form-group {
+	    margin-bottom: 5px !important;
+	}
+	.navbar-nav {
+	    margin-left: 242px;
+	}
+	.form-text {
+	    display: block;
+	    margin-top: none;
+	}
+	.btn{
+		line-height: 10px !important;
+		padding: 6px 0px !important;
+	}
+	/*style body*/
+	.title{
+		width: 100%;
+	}
+	.title2{
+		display: none;
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+	/*style footer*/
+	.logos>img{
+		width: 30%;
+	}
+	h3{
+		font-size: 22px !important;
+	}
+	p{
+		font-size: 15px;
+	}
+}
+@media (max-width:992px) and (min-width: 769px){
+	/*style navbar*/
+	.navbar-nav {
+	    margin-left: 342px;
+	}
+	/*style header*/
+	.contact {
+	    width: 70%;
+	    position: absolute;
+	    top: 203px;
+	    left: 165px;
+	}
+	.form {
+        bottom: 255px;
+    	left: 374px;
+	    line-height: 1 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 1 !important;
+	}
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.form-group {
+	    margin-bottom: 5px !important;
+	}
+	
+	.form-text {
+	    display: block;
+	    margin-top: none;
+	}
+	.btn{
+		line-height: 10px !important;
+	}
+	/*style body*/
+	.title{
+		width: 100%;
+	}
+	.title2{
+		display: none;
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+}
+@media (max-width:768px) and (min-width: 426px){
+	/*style navbar*/
+	.logo {
+	    width: 50%;
+	    position: relative;
+	    left: 497px;
+	}
+	.nav-link {
+	    font-size: 15px;
+	    margin: 0;
+	}
+	.navbar-nav {
+	    text-align: center;
+	}
+	/*style header*/
+	.contact {
+	    width: 70%;
+	    position: relative;
+	    top: -308px;
+	    left: 124px;
+	}
+	.form {
+        bottom: 192px;
+    	left: 289px;
+	    line-height: 1 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 1 !important;
+		padding: 1px 10px !important;
+	}
+	.small, small {
+	    font-size: 50% !important;
+	    font-weight: 300 !important;
+	    margin-top: 1px !important;
+	}
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.form-group {
+	    margin-bottom: 5px !important;
+	}
+	.form-text {
+	    display: block;
+	    margin-top: none;
+	}
+	.btn{
+		line-height: 10px !important;
+	}
+	.btn-enviar{
+		width: 78px;
+		height: 23px;
+    	font-size: 13px !important;
+    	margin-top: -3px;
+	}
+	/*style body*/
+	.central{
+		margin-top: -450px;
+	}
+	.title{
+		width: 100%;
+
+	}
+	.title2{
+		display: none;
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+	/*style footer*/
+	.logos>img{
+		width: 40%;
+	}
+	h3{
+		font-size: 22px !important;
+	}
+	p{
+		font-size: 13px;
+	}
+}
+@media (max-width:425px) and (min-width: 376px){
+	/*style navbar*/
+	.logo {
+	    width: 41%;
+	    position: relative;
+	    left: 220px;
+	}
+	.navbar{
+		padding: 0 0 !important;
+	}
+	.nav-link {
+	    font-size: 15px;
+	    margin: 0;
+	}
+	/*style header*/
+	.contact {
+	    width: 100%;
+	    position: relative;
+	    top: -54px;
+	    left: 1px;
+	}
+	img.contact1,.contact2{
+		height: 44%;
+	}
+	.form {
+        bottom: 192px;
+	    left: 211px;
+	    line-height: 1 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 1 !important;
+		padding: 1px 10px !important;
+	}
+	.small, small {
+	    font-size: 50% !important;
+	    font-weight: 300 !important;
+	    margin-top: 1px !important;
+	}
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.form-group {
+	    margin-bottom: 5px !important;
+	}
+	.navbar-nav {
+	    text-align: center;
+	}
+	.form-text {
+	    display: block;
+	    margin-top: none;
+	}
+	.btn{
+		line-height: 10px !important;
+	}
+	.btn-enviar{
+		width: 78px;
+		height: 23px;
+    	font-size: 13px !important;
+    	margin-top: -3px;
+	}
+	/*style body*/
+	.central{
+		margin-top: -278px;
+	}
+	.title{
+		display: none;
+
+	}
+	.title2{
+		width: 100%
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+	/*style footer*/
+	.logos>img{
+		width: 25%;
+	}
+	h3{
+		font-size: 22px !important;
+	}
+	p{
+		font-size: 13px;
+	}
+}
+@media (max-width:375px) and (min-width: 321px){
+	/*style navbar*/
+	.logo {
+	    width: 36%;
+	    position: relative;
+	    left: 205px;
+	}
+	.navbar{
+		padding: 0 0 !important;
+	}
+	.nav-link {
+	    font-size: 15px;
+	    margin: 0;
+	}
+	/*style header*/
+	.contact {
+	    width: 100%;
+	    position: relative;
+	    top: -16px;
+	    left: 1px;
+	}
+	img.contact1,.contact2{
+		height: 38%;
+	}
+	.form {
+        bottom: 167px;
+	    left: 185px;
+	    line-height: 1 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 1 !important;
+		padding: 1px 10px !important;
+		font-size: 12px !important;
+	}
+	.small, small {
+	    font-size: 50% !important;
+	    font-weight: 300 !important;
+	    margin-top: 1px !important;
+	}
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.form-group {
+	    margin-bottom: 5px !important;
+	}
+	.navbar-nav {
+	    text-align: center;
+	}
+	.form-text {
+	    display: block;
+	    margin-top: none;
+	}
+	.btn{
+		line-height: 10px !important;
+	}
+	.btn-enviar{
+		width: 78px;
+		height: 23px;
+    	font-size: 11px !important;
+    	margin-top: -3px;
+	}
+	/*style body*/
+	.central{
+		margin-top: -215px;
+	}
+	.title{
+		display: none;
+	}
+	.title2{
+		width: 100%
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+	/*style footer*/
+	.logos>img{
+		width: 30%;
+	}
+	h3{
+		font-size: 18px !important;
+	}
+	p{
+		font-size: 13px;
+	}
+}
+@media (max-width:320px){
+	/*style navbar*/
+	.logo {
+	    width: 41%;
+	    position: relative;
+	    left: 163px;
+	}
+	.navbar{
+		padding: 0 0 !important;
+	}
+	.nav-link {
+	    font-size: 15px;
+	    margin: 0;
+	}
+	/*style header*/
+	.contact {
+	    width: 100%;
+	    position: relative;
+	    top: -16px;
+	    left: 1px;
+	}
+	img.contact1,.contact2{
+		height: 38%;
+	}
+	.form {
+        bottom: 167px;
+	    left: 159px;
+	    line-height: 1 !important;
+	    text-align: center;
+	}
+	.form-control {
+		line-height: 1 !important;
+		padding: 1px 10px !important;
+		font-size: 12px !important;
+	}
+	.small, small {
+	    font-size: 50% !important;
+	    font-weight: 300 !important;
+	    margin-top: 1px !important;
+	}
+	.mg-b {
+    	margin-bottom: 3px;
+	}
+	.form-group {
+	    margin-bottom: 5px !important;
+	}
+	.navbar-nav {
+	    text-align: center;
+	}
+	.form-text {
+	    display: block;
+	    margin-top: none;
+	}
+	.btn{
+		line-height: 10px !important;
+	}
+	.btn-enviar{
+		width: 78px;
+		height: 23px;
+    	font-size: 11px !important;
+    	margin-top: -3px;
+	}
+	/*style body*/
+	.central{
+		margin-top: -215px;
+	}
+	.title{
+		display: none;
+	}
+	.title2{
+		width: 100%
+	}
+	.planos{
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+	/*style footer*/
+	.logos>img{
+		width: 30%;
+	}
+	h3{
+		font-size: 18px !important;
+	}
+	p{
+		font-size: 13px;
+	}
+}
+
+
+
+
+
